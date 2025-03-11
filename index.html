@@ -1,15 +1,23 @@
-<DOCTYPE! html>
-  <html>
-    <head>
-      <title>A Spectator's Guide</title>
-    </head>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>A Spectator's Guide</title>
     <style>
-      body{
+      body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
         background-color: antiquewhite;
       }
+
+      embed {
+        width: 100vw;
+        height: 100vh;
+        border: none;
+      }
     </style>
-    <body>
-      <p>A Spectator's Guide</p>
-      <embed src="aspectatorsguide.pdf" width="100vw" height="100vh">
-    </body>
-  </html>
+  </head>
+  <body>
+    <embed src="aspectatorsguide.pdf" width="100%" height="100%">
+  </body>
+</html>
